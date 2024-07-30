@@ -50,9 +50,6 @@ const waitForUrl = async ({
         headers = {
           'x-vercel-protection-bypass': protectionBypassHeader
         };
-
-        // TEMP
-        console.log('protectionBypassHeader', protectionBypassHeader);
       }
 
       let checkUri = new URL(path, url);
